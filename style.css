@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  
+body{
+    margin: 0;
+    background-color: #ffffff;
+
+}
+
+/*Our logo Begins Here*/
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+/*Our Navigation Bar Starts Here*/
+
+.navbar{
+  overflow: hidden; /* Hide overflow */
+  background-color: #F56318; /* Dark background color */
+ 
+  
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 40px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #E59866; /* Grey background color */
+  color: #ffffff; /* Black text color */
+  
+}
+
+/*Our Navigation Bar Endss Here*/
+
+.video{
+    height: 430px;
+    width: 600px;
+  position: absolute;
+  left: 15px;
+  top: 205px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 610px;
+    position: relative;
+    bottom: 220px;
+    
+  }
+
+
+  .container-w{
+    flex-direction: row;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 10px;
+    margin: -20px;
+    
+  }
+
+  .container-x{
+    flex-direction: row;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 10px;
+    margin: -20px;
+    
+  }
+
+  .container-y{
+    flex-direction: row;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 10px;
+    margin: -20px;
+    
+  }
+
+  .container-z{
+    flex-direction: row;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 10px;
+    margin: -20px;
+    
+  }
+
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 15px;
+    height: 200px;
+   position: relative;
+   top: 188px;
+}  
+
+h1{
+    padding: 0px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.upper-text{
+    padding: 0px 210px 5px ;
+    color: #000;
+    
+  
+}
+
+.upper-para{
+  position: relative;
+  left: 210px;
+  bottom: 10px;
+  color: #444444;
+}
+
+.lower-para{
+
+  color: #444444;
+}
+/* The is for the Video*/
+
+.jam-eye{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkgreen;
+  padding: 0px 19px;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  
+}
+
+.flex-text{
+    padding: 10px 210px;
+}
+  
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+  
+/* Clear floats after the columns */
+  
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.img-size{
+    width: 300px;
+    height: 250px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+}
+  
+/*Footer Starts Here*/
+
+.inner-footer{
+position:absolute;
+ padding: 0px 355px;
+ bottom: -2150px;
+  background-color: #8E8D8C;
+}
+ 
+.social-links{
+  display: flex;
+ 
+}
+ 
+.social-links ul{
+  display: flex;
+  padding: 0px 10px;
+   color: red;
+  width: 320px;
+  height: 30px;
+  margin: auto;
+}
+ 
+ 
+.social-items{
+  list-style: none;
+ 
+}
+ 
+.social-items a{
+  padding: 10px 20px;
+  font-size: 35px;
+  color: #000;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+ 
+}
+ 
+.social-items a:hover{
+  color:#ffffff;
+}
+ 
+.quick-links{
+  display: flex;
+  width: 560px;
+  height: 70px;
+  margin: auto ;
+}
+ 
+.quick-links ul{
+  display: flex;
+}
+ 
+.quick-items{
+  list-style: none;
+}
+ 
+.quick-items a{
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #fff;
+  transition: all .25s;
+}
+ 
+.quick-items a:hover{
+  color: rgb(243, 122, 9);
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
